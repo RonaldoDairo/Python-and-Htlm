@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- PAGINA QUE LOGRA ADAPTARSE SUTILMENTE A CAMBIOS DE TAMANNO -->
+<html>
+    <head>
+        <!--De esta manera agregamos codificacion para utilizar caracteres latinos (y de español)-->
+        <meta charset="UTF-8">
+        
+        <!-- Esta linea siguiente indica capacidad de adaptarse al tamanno del viewport del equipo -->
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        
+        <style>
+            /* Implica que estoy en pantalla grande de almenos 720px */
+            @media (min-width: 720px) {
+                body {
+                    background-color: lightgreen;
+                }
+                h1::before {
+                    content: "CONDICIONES CAMBIANTES AL CAMBIAR TAMAÑO VISTA";
+                }
+            }
+            /* Se cambia color, dependiendo de pantalla (en este caso menos de 500px) */
+            @media (max-width: 719px) {
+                body {
+                    background-color: lightskyblue;
+                }
+                h1::before {
+                    content: "ESTOY EN VISTA PEQUE";
+                }
+            }
+
+
+        </style>
+        <title>CSS intermedio</title>
+    </head>
+    <body>
+        <h1></h1>
+        <p>Esta pagina debe adaptar su color  segun el tamanno total de la pantalla vista.</p>
+        <p>Trata de encoger la pantalla!!!!!!!</p>
+    </body>
+</html>

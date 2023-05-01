@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--De esta manera agregamos codificacion para utilizar caracteres latinos (y de español)-->
+        <meta charset="UTF-8">
+        <style>
+            /* @media print permite editar propiedades de los estilos al imprimir pagina */
+            @media print {
+                .no-imprimir{
+                    display:none;
+                }
+                .imprimir-negro{
+                    color: black;
+                }
+            }
+            h1{
+                color: blue;
+            }
+
+        </style>
+        <title>CSS intermedio</title>
+    </head>
+    <body>
+        <!-- Se notaran cambios en titulo y en parrafo final al imprimir pagina web -->
+        <h1 class="imprimir-negro">CONDICIONES CAMBIANTES AL IMPRIMIR PAGINIA...</h1>
+        <p>El objetivo es generar páginas web que tengan contenido que al navegar se vea...</p>
+        <p>...pero que al imprimir la pagina no se vea o cambie su estilo!!</p>
+        <br>
+        <p class="no-imprimir">Este parrafo al imprimir, NO se va a ver</p>
+    </body>
+</html>

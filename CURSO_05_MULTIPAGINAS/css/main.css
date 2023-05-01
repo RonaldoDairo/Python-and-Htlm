@@ -1,0 +1,44 @@
+/* ARCHIVO PARA CONFIGURAR LOS ESTILOS DE LA MULTIPAGINA */
+
+body {
+    background-color: aqua;
+    color: black;
+    /* font-family: 'Lato', sans-serif; */
+}
+img {
+    max-width: 40%;
+}
+.img-peque{
+    max-width: 5%;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+a{
+    color: indigo;
+    font-weight: bold;
+}
+
+.quitar-float{
+    float: none;
+}
+.espacio-arriba{
+    margin-top: 15px;
+}
+.espacio-derecha{
+    margin-right: 1em;
+}
+.txt-grande{
+    font-size: 2.5em;
+}
+.txt-mediano{
+    font-size: 1em;
+}
+
+/* .font-oswald{
+    font-family: 'Oswald', sans-serif;
+} */

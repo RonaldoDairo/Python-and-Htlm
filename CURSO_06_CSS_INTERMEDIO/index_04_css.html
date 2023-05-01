@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- PAGINA QUE LOGRA ADAPTARSE SUTILMENTE A CAMBIOS DE TAMANNO -->
+<html>
+    <head>
+        <!--De esta manera agregamos codificacion para utilizar caracteres latinos (y de español)-->
+        <meta charset="UTF-8">
+        
+        <!-- Esta linea siguiente indica capacidad de adaptarse al tamanno del viewport del equipo -->
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        
+        <style>
+            /* Creamos contenedor con capacidades "Flex", que permite hacer "wrap" al final de la linea */
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            /* Creamos estilos cualquier hijo inmediado tipo "p" de "container" */
+            .container > p {
+                background-color: lightskyblue;
+                font-size: 20px;
+                margin: 20px;
+                padding: 10px;
+                width: 200px;
+            }
+
+        </style>
+        <title>CSS intermedio</title>
+    </head>
+    <body>
+        <div class="container">
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+            <p>La disciplina, tarde o temprano, vencerá a la inteligencia.</p>
+
+        </div>
+    </body>
+</html>
